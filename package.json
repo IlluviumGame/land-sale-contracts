@@ -1,0 +1,42 @@
+{
+  "name": "land-sale-core",
+  "version": "1.1.2",
+  "description": "Illuvium Land Sale Protocol (Core)",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "keywords": [],
+  "author": "Basil Gorin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:IlluviumGame/land-sale-core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IlluviumGame/land-sale-core/issues"
+  },
+  "homepage": "https://github.com/IlluviumGame/land-sale-core#readme",
+  "devDependencies": {
+    "@chainlink/contracts": "0.4.0",
+    "@nomiclabs/hardhat-etherscan": "^2.1.4",
+    "@nomiclabs/hardhat-truffle5": "2.0.0",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/contracts": "4.4.1",
+    "@openzeppelin/contracts-upgradeable": "4.4.1",
+    "@openzeppelin/test-helpers": "^0.5.12",
+    "base64-sol": "1.1.0",
+    "chai": "^4.3.4",
+    "dotenv": "^16.0.0",
+    "hardhat": "^2.6.0",
+    "hardhat-dependency-compiler": "^1.1.2",
+    "hardhat-deploy": "^0.9.10",
+    "hardhat-gas-reporter": "^1.0.4",
+    "keccak256": "^1.0.3",
+    "loglevel": "^1.7.1",
+    "merkletreejs": "^0.2.24",
+    "prb-math": "2.4.3",
+    "shelljs": "^0.8.5",
+    "solidity-coverage": "^0.7.16"
+  }
+}
