@@ -25,7 +25,7 @@ There are standard build and development tooling that has evolved across the sma
 
 Solidity - Smart Contracts are written in the Solidity programming language, compiled to bytecode for execution
 Hardhat - Used as a development blockchain and test solution
-Visual Studio Code (optional) - A popular choice for editor and
+Visual Studio Code (optional) - A popular choice for editor with support for solidity plugins
 
 ### Design Decisions
 
