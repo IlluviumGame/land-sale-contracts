@@ -1,0 +1,422 @@
+{
+  "address": "0x474D356D8fb03Dadb6eF77443492Dab54CccC9be",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "answerMocked",
+      "outputs": [
+        {
+          "internalType": "int256",
+          "name": "",
+          "type": "int256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "answeredInRoundMocked",
+      "outputs": [
+        {
+          "internalType": "uint80",
+          "name": "",
+          "type": "uint80"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "decimals",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "description",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "ethOut",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint80",
+          "name": "_roundId",
+          "type": "uint80"
+        }
+      ],
+      "name": "getRoundData",
+      "outputs": [
+        {
+          "internalType": "uint80",
+          "name": "roundId",
+          "type": "uint80"
+        },
+        {
+          "internalType": "int256",
+          "name": "answer",
+          "type": "int256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "startedAt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "updatedAt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint80",
+          "name": "answeredInRound",
+          "type": "uint80"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "ilvIn",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "latestRoundData",
+      "outputs": [
+        {
+          "internalType": "uint80",
+          "name": "roundId",
+          "type": "uint80"
+        },
+        {
+          "internalType": "int256",
+          "name": "answer",
+          "type": "int256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "startedAt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "updatedAt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint80",
+          "name": "answeredInRound",
+          "type": "uint80"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "now256",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "roundIdMocked",
+      "outputs": [
+        {
+          "internalType": "uint80",
+          "name": "",
+          "type": "uint80"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint80",
+          "name": "roundId",
+          "type": "uint80"
+        },
+        {
+          "internalType": "int256",
+          "name": "answer",
+          "type": "int256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "startedAt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "updatedAt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint80",
+          "name": "answeredInRound",
+          "type": "uint80"
+        }
+      ],
+      "name": "setMockedValues",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "setNow256",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_ethOut",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_ilvIn",
+          "type": "uint256"
+        }
+      ],
+      "name": "setRate",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "startedAtMocked",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "updatedAtMocked",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "version",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0xfba63ede24d3018432994ae1535f48c125bc399d4e83d83bb75b8b2ab08f125a",
+  "receipt": {
+    "to": null,
+    "from": "0x7fF892CCEc1A860A89618c5Eaa3392aF001F8fa3",
+    "contractAddress": "0x474D356D8fb03Dadb6eF77443492Dab54CccC9be",
+    "transactionIndex": 46,
+    "gasUsed": "574577",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x48f3a78e7a6efa97284310dc27fa3295938466ca450c635551cd612ab9cad657",
+    "transactionHash": "0xfba63ede24d3018432994ae1535f48c125bc399d4e83d83bb75b8b2ab08f125a",
+    "logs": [],
+    "blockNumber": 7637038,
+    "cumulativeGasUsed": "11985166",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "solcInputHash": "b30241804ed3c2057f5a06d4838f4c12",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.11+commit.d7f03943\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"answerMocked\",\"outputs\":[{\"internalType\":\"int256\",\"name\":\"\",\"type\":\"int256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"answeredInRoundMocked\",\"outputs\":[{\"internalType\":\"uint80\",\"name\":\"\",\"type\":\"uint80\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"decimals\",\"outputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"description\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"ethOut\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint80\",\"name\":\"_roundId\",\"type\":\"uint80\"}],\"name\":\"getRoundData\",\"outputs\":[{\"internalType\":\"uint80\",\"name\":\"roundId\",\"type\":\"uint80\"},{\"internalType\":\"int256\",\"name\":\"answer\",\"type\":\"int256\"},{\"internalType\":\"uint256\",\"name\":\"startedAt\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"updatedAt\",\"type\":\"uint256\"},{\"internalType\":\"uint80\",\"name\":\"answeredInRound\",\"type\":\"uint80\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"ilvIn\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"latestRoundData\",\"outputs\":[{\"internalType\":\"uint80\",\"name\":\"roundId\",\"type\":\"uint80\"},{\"internalType\":\"int256\",\"name\":\"answer\",\"type\":\"int256\"},{\"internalType\":\"uint256\",\"name\":\"startedAt\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"updatedAt\",\"type\":\"uint256\"},{\"internalType\":\"uint80\",\"name\":\"answeredInRound\",\"type\":\"uint80\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"now256\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"roundIdMocked\",\"outputs\":[{\"internalType\":\"uint80\",\"name\":\"\",\"type\":\"uint80\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint80\",\"name\":\"roundId\",\"type\":\"uint80\"},{\"internalType\":\"int256\",\"name\":\"answer\",\"type\":\"int256\"},{\"internalType\":\"uint256\",\"name\":\"startedAt\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"updatedAt\",\"type\":\"uint256\"},{\"internalType\":\"uint80\",\"name\":\"answeredInRound\",\"type\":\"uint80\"}],\"name\":\"setMockedValues\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"setNow256\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_ethOut\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_ilvIn\",\"type\":\"uint256\"}],\"name\":\"setRate\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"startedAtMocked\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"updatedAtMocked\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"version\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"author\":\"Basil Gorin\",\"details\":\"Enables testing of the feed, playing with current timestamp\",\"kind\":\"dev\",\"methods\":{\"now256()\":{\"details\":\"Testing time-dependent functionality may be difficult;      we override time in the helper test smart contract (mock)\",\"returns\":{\"_0\":\"`block.timestamp` in mainnet, custom values in testnets (if overridden)\"}},\"setMockedValues(uint80,int256,uint256,uint256,uint80)\":{\"details\":\"Overrides roundId, answer, startedAt, updatedAt, answeredInRound\"},\"setNow256(uint256)\":{\"details\":\"overrides now256()\"}},\"stateVariables\":{\"_now256\":{\"details\":\"overridden value to use as now32()\"}},\"title\":\"Chainlink Price Feed Aggregator V3 Mock\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"Supports the Land Sale Price Oracle with the ILV/ETH price feed\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/mocks/ChainlinkAggregatorV3Mock.sol\":\"ChainlinkAggregatorV3Mock\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity ^0.8.0;\\n\\ninterface AggregatorV3Interface {\\n  function decimals() external view returns (uint8);\\n\\n  function description() external view returns (string memory);\\n\\n  function version() external view returns (uint256);\\n\\n  // getRoundData and latestRoundData should both raise \\\"No data present\\\"\\n  // if they do not have data to report, instead of returning unset values\\n  // which could be misinterpreted as actual reported values.\\n  function getRoundData(uint80 _roundId)\\n    external\\n    view\\n    returns (\\n      uint80 roundId,\\n      int256 answer,\\n      uint256 startedAt,\\n      uint256 updatedAt,\\n      uint80 answeredInRound\\n    );\\n\\n  function latestRoundData()\\n    external\\n    view\\n    returns (\\n      uint80 roundId,\\n      int256 answer,\\n      uint256 startedAt,\\n      uint256 updatedAt,\\n      uint80 answeredInRound\\n    );\\n}\\n\",\"keccak256\":\"0xf2b6c9adb3552254df1445b73563cf014434ff5e78663e9b961b6c059506ceb5\",\"license\":\"MIT\"},\"@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n// OpenZeppelin Contracts v4.4.1 (proxy/ERC1967/ERC1967Upgrade.sol)\\n\\npragma solidity ^0.8.2;\\n\\nimport \\\"../beacon/IBeaconUpgradeable.sol\\\";\\nimport \\\"../../utils/AddressUpgradeable.sol\\\";\\nimport \\\"../../utils/StorageSlotUpgradeable.sol\\\";\\nimport \\\"../utils/Initializable.sol\\\";\\n\\n/**\\n * @dev This abstract contract provides getters and event emitting update functions for\\n * https://eips.ethereum.org/EIPS/eip-1967[EIP1967] slots.\\n *\\n * _Available since v4.1._\\n *\\n * @custom:oz-upgrades-unsafe-allow delegatecall\\n */\\nabstract contract ERC1967UpgradeUpgradeable is Initializable {\\n    function __ERC1967Upgrade_init() internal onlyInitializing {\\n        __ERC1967Upgrade_init_unchained();\\n    }\\n\\n    function __ERC1967Upgrade_init_unchained() internal onlyInitializing {\\n    }\\n    // This is the keccak-256 hash of \\\"eip1967.proxy.rollback\\\" subtracted by 1\\n    bytes32 private constant _ROLLBACK_SLOT = 0x4910fdfa16fed3260ed0e7147f7cc6da11a60208b5b9406d12a635614ffd9143;\\n\\n    /**\\n     * @dev Storage slot with the address of the current implementation.\\n     * This is the keccak-256 hash of \\\"eip1967.proxy.implementation\\\" subtracted by 1, and is\\n     * validated in the constructor.\\n     */\\n    bytes32 internal constant _IMPLEMENTATION_SLOT = 0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc;\\n\\n    /**\\n     * @dev Emitted when the implementation is upgraded.\\n     */\\n    event Upgraded(address indexed implementation);\\n\\n    /**\\n     * @dev Returns the current implementation address.\\n     */\\n    function _getImplementation() internal view returns (address) {\\n        return StorageSlotUpgradeable.getAddressSlot(_IMPLEMENTATION_SLOT).value;\\n    }\\n\\n    /**\\n     * @dev Stores a new address in the EIP1967 implementation slot.\\n     */\\n    function _setImplementation(address newImplementation) private {\\n        require(AddressUpgradeable.isContract(newImplementation), \\\"ERC1967: new implementation is not a contract\\\");\\n        StorageSlotUpgradeable.getAddressSlot(_IMPLEMENTATION_SLOT).value = newImplementation;\\n    }\\n\\n    /**\\n     * @dev Perform implementation upgrade\\n     *\\n     * Emits an {Upgraded} event.\\n     */\\n    function _upgradeTo(address newImplementation) internal {\\n        _setImplementation(newImplementation);\\n        emit Upgraded(newImplementation);\\n    }\\n\\n    /**\\n     * @dev Perform implementation upgrade with additional setup call.\\n     *\\n     * Emits an {Upgraded} event.\\n     */\\n    function _upgradeToAndCall(\\n        address newImplementation,\\n        bytes memory data,\\n        bool forceCall\\n    ) internal {\\n        _upgradeTo(newImplementation);\\n        if (data.length > 0 || forceCall) {\\n            _functionDelegateCall(newImplementation, data);\\n        }\\n    }\\n\\n    /**\\n     * @dev Perform implementation upgrade with security checks for UUPS proxies, and additional setup call.\\n     *\\n     * Emits an {Upgraded} event.\\n     */\\n    function _upgradeToAndCallSecure(\\n        address newImplementation,\\n        bytes memory data,\\n        bool forceCall\\n    ) internal {\\n        address oldImplementation = _getImplementation();\\n\\n        // Initial upgrade and setup call\\n        _setImplementation(newImplementation);\\n        if (data.length > 0 || forceCall) {\\n            _functionDelegateCall(newImplementation, data);\\n        }\\n\\n        // Perform rollback test if not already in progress\\n        StorageSlotUpgradeable.BooleanSlot storage rollbackTesting = StorageSlotUpgradeable.getBooleanSlot(_ROLLBACK_SLOT);\\n        if (!rollbackTesting.value) {\\n            // Trigger rollback using upgradeTo from the new implementation\\n            rollbackTesting.value = true;\\n            _functionDelegateCall(\\n                newImplementation,\\n                abi.encodeWithSignature(\\\"upgradeTo(address)\\\", oldImplementation)\\n            );\\n            rollbackTesting.value = false;\\n            // Check rollback was effective\\n            require(oldImplementation == _getImplementation(), \\\"ERC1967Upgrade: upgrade breaks further upgrades\\\");\\n            // Finally reset to the new implementation and log the upgrade\\n            _upgradeTo(newImplementation);\\n        }\\n    }\\n\\n    /**\\n     * @dev Storage slot with the admin of the contract.\\n     * This is the keccak-256 hash of \\\"eip1967.proxy.admin\\\" subtracted by 1, and is\\n     * validated in the constructor.\\n     */\\n    bytes32 internal constant _ADMIN_SLOT = 0xb53127684a568b3173ae13b9f8a6016e243e63b6e8ee1178d6a717850b5d6103;\\n\\n    /**\\n     * @dev Emitted when the admin account has changed.\\n     */\\n    event AdminChanged(address previousAdmin, address newAdmin);\\n\\n    /**\\n     * @dev Returns the current admin.\\n     */\\n    function _getAdmin() internal view returns (address) {\\n        return StorageSlotUpgradeable.getAddressSlot(_ADMIN_SLOT).value;\\n    }\\n\\n    /**\\n     * @dev Stores a new address in the EIP1967 admin slot.\\n     */\\n    function _setAdmin(address newAdmin) private {\\n        require(newAdmin != address(0), \\\"ERC1967: new admin is the zero address\\\");\\n        StorageSlotUpgradeable.getAddressSlot(_ADMIN_SLOT).value = newAdmin;\\n    }\\n\\n    /**\\n     * @dev Changes the admin of the proxy.\\n     *\\n     * Emits an {AdminChanged} event.\\n     */\\n    function _changeAdmin(address newAdmin) internal {\\n        emit AdminChanged(_getAdmin(), newAdmin);\\n        _setAdmin(newAdmin);\\n    }\\n\\n    /**\\n     * @dev The storage slot of the UpgradeableBeacon contract which defines the implementation for this proxy.\\n     * This is bytes32(uint256(keccak256('eip1967.proxy.beacon')) - 1)) and is validated in the constructor.\\n     */\\n    bytes32 internal constant _BEACON_SLOT = 0xa3f0ad74e5423aebfd80d3ef4346578335a9a72aeaee59ff6cb3582b35133d50;\\n\\n    /**\\n     * @dev Emitted when the beacon is upgraded.\\n     */\\n    event BeaconUpgraded(address indexed beacon);\\n\\n    /**\\n     * @dev Returns the current beacon.\\n     */\\n    function _getBeacon() internal view returns (address) {\\n        return StorageSlotUpgradeable.getAddressSlot(_BEACON_SLOT).value;\\n    }\\n\\n    /**\\n     * @dev Stores a new beacon in the EIP1967 beacon slot.\\n     */\\n    function _setBeacon(address newBeacon) private {\\n        require(AddressUpgradeable.isContract(newBeacon), \\\"ERC1967: new beacon is not a contract\\\");\\n        require(\\n            AddressUpgradeable.isContract(IBeaconUpgradeable(newBeacon).implementation()),\\n            \\\"ERC1967: beacon implementation is not a contract\\\"\\n        );\\n        StorageSlotUpgradeable.getAddressSlot(_BEACON_SLOT).value = newBeacon;\\n    }\\n\\n    /**\\n     * @dev Perform beacon upgrade with additional setup call. Note: This upgrades the address of the beacon, it does\\n     * not upgrade the implementation contained in the beacon (see {UpgradeableBeacon-_setImplementation} for that).\\n     *\\n     * Emits a {BeaconUpgraded} event.\\n     */\\n    function _upgradeBeaconToAndCall(\\n        address newBeacon,\\n        bytes memory data,\\n        bool forceCall\\n    ) internal {\\n        _setBeacon(newBeacon);\\n        emit BeaconUpgraded(newBeacon);\\n        if (data.length > 0 || forceCall) {\\n            _functionDelegateCall(IBeaconUpgradeable(newBeacon).implementation(), data);\\n        }\\n    }\\n\\n    /**\\n     * @dev Same as {xref-Address-functionCall-address-bytes-string-}[`functionCall`],\\n     * but performing a delegate call.\\n     *\\n     * _Available since v3.4._\\n     */\\n    function _functionDelegateCall(address target, bytes memory data) private returns (bytes memory) {\\n        require(AddressUpgradeable.isContract(target), \\\"Address: delegate call to non-contract\\\");\\n\\n        // solhint-disable-next-line avoid-low-level-calls\\n        (bool success, bytes memory returndata) = target.delegatecall(data);\\n        return AddressUpgradeable.verifyCallResult(success, returndata, \\\"Address: low-level delegate call failed\\\");\\n    }\\n    uint256[50] private __gap;\\n}\\n\",\"keccak256\":\"0xba3e051005a0b7f77c465dbcfe6366ce6a72e3845028277e1f794e5e8864e017\",\"license\":\"MIT\"},\"@openzeppelin/contracts-upgradeable/proxy/beacon/IBeaconUpgradeable.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n// OpenZeppelin Contracts v4.4.1 (proxy/beacon/IBeacon.sol)\\n\\npragma solidity ^0.8.0;\\n\\n/**\\n * @dev This is the interface that {BeaconProxy} expects of its beacon.\\n */\\ninterface IBeaconUpgradeable {\\n    /**\\n     * @dev Must return an address that can be used as a delegate call target.\\n     *\\n     * {BeaconProxy} will check that this address is a contract.\\n     */\\n    function implementation() external view returns (address);\\n}\\n\",\"keccak256\":\"0x24b86ac8c005b8c654fbf6ac34a5a4f61580d7273541e83e013e89d66fbf0908\",\"license\":\"MIT\"},\"@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n// OpenZeppelin Contracts v4.4.1 (proxy/utils/Initializable.sol)\\n\\npragma solidity ^0.8.0;\\n\\nimport \\\"../../utils/AddressUpgradeable.sol\\\";\\n\\n/**\\n * @dev This is a base contract to aid in writing upgradeable contracts, or any kind of contract that will be deployed\\n * behind a proxy. Since a proxied contract can't have a constructor, it's common to move constructor logic to an\\n * external initializer function, usually called `initialize`. It then becomes necessary to protect this initializer\\n * function so it can only be called once. The {initializer} modifier provided by this contract will have this effect.\\n *\\n * TIP: To avoid leaving the proxy in an uninitialized state, the initializer function should be called as early as\\n * possible by providing the encoded function call as the `_data` argument to {ERC1967Proxy-constructor}.\\n *\\n * CAUTION: When used with inheritance, manual care must be taken to not invoke a parent initializer twice, or to ensure\\n * that all initializers are idempotent. This is not verified automatically as constructors are by Solidity.\\n *\\n * [CAUTION]\\n * ====\\n * Avoid leaving a contract uninitialized.\\n *\\n * An uninitialized contract can be taken over by an attacker. This applies to both a proxy and its implementation\\n * contract, which may impact the proxy. To initialize the implementation contract, you can either invoke the\\n * initializer manually, or you can include a constructor to automatically mark it as initialized when it is deployed:\\n *\\n * [.hljs-theme-light.nopadding]\\n * ```\\n * /// @custom:oz-upgrades-unsafe-allow constructor\\n * constructor() initializer {}\\n * ```\\n * ====\\n */\\nabstract contract Initializable {\\n    /**\\n     * @dev Indicates that the contract has been initialized.\\n     */\\n    bool private _initialized;\\n\\n    /**\\n     * @dev Indicates that the contract is in the process of being initialized.\\n     */\\n    bool private _initializing;\\n\\n    /**\\n     * @dev Modifier to protect an initializer function from being invoked twice.\\n     */\\n    modifier initializer() {\\n        // If the contract is initializing we ignore whether _initialized is set in order to support multiple\\n        // inheritance patterns, but we only do this in the context of a constructor, because in other contexts the\\n        // contract may have been reentered.\\n        require(_initializing ? _isConstructor() : !_initialized, \\\"Initializable: contract is already initialized\\\");\\n\\n        bool isTopLevelCall = !_initializing;\\n        if (isTopLevelCall) {\\n            _initializing = true;\\n            _initialized = true;\\n        }\\n\\n        _;\\n\\n        if (isTopLevelCall) {\\n            _initializing = false;\\n        }\\n    }\\n\\n    /**\\n     * @dev Modifier to protect an initialization function so that it can only be invoked by functions with the\\n     * {initializer} modifier, directly or indirectly.\\n     */\\n    modifier onlyInitializing() {\\n        require(_initializing, \\\"Initializable: contract is not initializing\\\");\\n        _;\\n    }\\n\\n    function _isConstructor() private view returns (bool) {\\n        return !AddressUpgradeable.isContract(address(this));\\n    }\\n}\\n\",\"keccak256\":\"0x68861bcc80cacbd498efde75aab6c74a486cc48262660d326c8d7530d9752097\",\"license\":\"MIT\"},\"@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n// OpenZeppelin Contracts v4.4.1 (proxy/utils/UUPSUpgradeable.sol)\\n\\npragma solidity ^0.8.0;\\n\\nimport \\\"../ERC1967/ERC1967UpgradeUpgradeable.sol\\\";\\nimport \\\"./Initializable.sol\\\";\\n\\n/**\\n * @dev An upgradeability mechanism designed for UUPS proxies. The functions included here can perform an upgrade of an\\n * {ERC1967Proxy}, when this contract is set as the implementation behind such a proxy.\\n *\\n * A security mechanism ensures that an upgrade does not turn off upgradeability accidentally, although this risk is\\n * reinstated if the upgrade retains upgradeability but removes the security mechanism, e.g. by replacing\\n * `UUPSUpgradeable` with a custom implementation of upgrades.\\n *\\n * The {_authorizeUpgrade} function must be overridden to include access restriction to the upgrade mechanism.\\n *\\n * _Available since v4.1._\\n */\\nabstract contract UUPSUpgradeable is Initializable, ERC1967UpgradeUpgradeable {\\n    function __UUPSUpgradeable_init() internal onlyInitializing {\\n        __ERC1967Upgrade_init_unchained();\\n        __UUPSUpgradeable_init_unchained();\\n    }\\n\\n    function __UUPSUpgradeable_init_unchained() internal onlyInitializing {\\n    }\\n    /// @custom:oz-upgrades-unsafe-allow state-variable-immutable state-variable-assignment\\n    address private immutable __self = address(this);\\n\\n    /**\\n     * @dev Check that the execution is being performed through a delegatecall call and that the execution context is\\n     * a proxy contract with an implementation (as defined in ERC1967) pointing to self. This should only be the case\\n     * for UUPS and transparent proxies that are using the current contract as their implementation. Execution of a\\n     * function through ERC1167 minimal proxies (clones) would not normally pass this test, but is not guaranteed to\\n     * fail.\\n     */\\n    modifier onlyProxy() {\\n        require(address(this) != __self, \\\"Function must be called through delegatecall\\\");\\n        require(_getImplementation() == __self, \\\"Function must be called through active proxy\\\");\\n        _;\\n    }\\n\\n    /**\\n     * @dev Upgrade the implementation of the proxy to `newImplementation`.\\n     *\\n     * Calls {_authorizeUpgrade}.\\n     *\\n     * Emits an {Upgraded} event.\\n     */\\n    function upgradeTo(address newImplementation) external virtual onlyProxy {\\n        _authorizeUpgrade(newImplementation);\\n        _upgradeToAndCallSecure(newImplementation, new bytes(0), false);\\n    }\\n\\n    /**\\n     * @dev Upgrade the implementation of the proxy to `newImplementation`, and subsequently execute the function call\\n     * encoded in `data`.\\n     *\\n     * Calls {_authorizeUpgrade}.\\n     *\\n     * Emits an {Upgraded} event.\\n     */\\n    function upgradeToAndCall(address newImplementation, bytes memory data) external payable virtual onlyProxy {\\n        _authorizeUpgrade(newImplementation);\\n        _upgradeToAndCallSecure(newImplementation, data, true);\\n    }\\n\\n    /**\\n     * @dev Function that should revert when `msg.sender` is not authorized to upgrade the contract. Called by\\n     * {upgradeTo} and {upgradeToAndCall}.\\n     *\\n     * Normally, this function will use an xref:access.adoc[access control] modifier such as {Ownable-onlyOwner}.\\n     *\\n     * ```solidity\\n     * function _authorizeUpgrade(address) internal override onlyOwner {}\\n     * ```\\n     */\\n    function _authorizeUpgrade(address newImplementation) internal virtual;\\n    uint256[50] private __gap;\\n}\\n\",\"keccak256\":\"0xed65883d4af8d00c76ff9f1b7758c5d8ac4ab82da60f9743c74d31b754b06bc0\",\"license\":\"MIT\"},\"@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n// OpenZeppelin Contracts v4.4.1 (utils/Address.sol)\\n\\npragma solidity ^0.8.0;\\n\\n/**\\n * @dev Collection of functions related to the address type\\n */\\nlibrary AddressUpgradeable {\\n    /**\\n     * @dev Returns true if `account` is a contract.\\n     *\\n     * [IMPORTANT]\\n     * ====\\n     * It is unsafe to assume that an address for which this function returns\\n     * false is an externally-owned account (EOA) and not a contract.\\n     *\\n     * Among others, `isContract` will return false for the following\\n     * types of addresses:\\n     *\\n     *  - an externally-owned account\\n     *  - a contract in construction\\n     *  - an address where a contract will be created\\n     *  - an address where a contract lived, but was destroyed\\n     * ====\\n     */\\n    function isContract(address account) internal view returns (bool) {\\n        // This method relies on extcodesize, which returns 0 for contracts in\\n        // construction, since the code is only stored at the end of the\\n        // constructor execution.\\n\\n        uint256 size;\\n        assembly {\\n            size := extcodesize(account)\\n        }\\n        return size > 0;\\n    }\\n\\n    /**\\n     * @dev Replacement for Solidity's `transfer`: sends `amount` wei to\\n     * `recipient`, forwarding all available gas and reverting on errors.\\n     *\\n     * https://eips.ethereum.org/EIPS/eip-1884[EIP1884] increases the gas cost\\n     * of certain opcodes, possibly making contracts go over the 2300 gas limit\\n     * imposed by `transfer`, making them unable to receive funds via\\n     * `transfer`. {sendValue} removes this limitation.\\n     *\\n     * https://diligence.consensys.net/posts/2019/09/stop-using-soliditys-transfer-now/[Learn more].\\n     *\\n     * IMPORTANT: because control is transferred to `recipient`, care must be\\n     * taken to not create reentrancy vulnerabilities. Consider using\\n     * {ReentrancyGuard} or the\\n     * https://solidity.readthedocs.io/en/v0.5.11/security-considerations.html#use-the-checks-effects-interactions-pattern[checks-effects-interactions pattern].\\n     */\\n    function sendValue(address payable recipient, uint256 amount) internal {\\n        require(address(this).balance >= amount, \\\"Address: insufficient balance\\\");\\n\\n        (bool success, ) = recipient.call{value: amount}(\\\"\\\");\\n        require(success, \\\"Address: unable to send value, recipient may have reverted\\\");\\n    }\\n\\n    /**\\n     * @dev Performs a Solidity function call using a low level `call`. A\\n     * plain `call` is an unsafe replacement for a function call: use this\\n     * function instead.\\n     *\\n     * If `target` reverts with a revert reason, it is bubbled up by this\\n     * function (like regular Solidity function calls).\\n     *\\n     * Returns the raw returned data. To convert to the expected return value,\\n     * use https://solidity.readthedocs.io/en/latest/units-and-global-variables.html?highlight=abi.decode#abi-encoding-and-decoding-functions[`abi.decode`].\\n     *\\n     * Requirements:\\n     *\\n     * - `target` must be a contract.\\n     * - calling `target` with `data` must not revert.\\n     *\\n     * _Available since v3.1._\\n     */\\n    function functionCall(address target, bytes memory data) internal returns (bytes memory) {\\n        return functionCall(target, data, \\\"Address: low-level call failed\\\");\\n    }\\n\\n    /**\\n     * @dev Same as {xref-Address-functionCall-address-bytes-}[`functionCall`], but with\\n     * `errorMessage` as a fallback revert reason when `target` reverts.\\n     *\\n     * _Available since v3.1._\\n     */\\n    function functionCall(\\n        address target,\\n        bytes memory data,\\n        string memory errorMessage\\n    ) internal returns (bytes memory) {\\n        return functionCallWithValue(target, data, 0, errorMessage);\\n    }\\n\\n    /**\\n     * @dev Same as {xref-Address-functionCall-address-bytes-}[`functionCall`],\\n     * but also transferring `value` wei to `target`.\\n     *\\n     * Requirements:\\n     *\\n     * - the calling contract must have an ETH balance of at least `value`.\\n     * - the called Solidity function must be `payable`.\\n     *\\n     * _Available since v3.1._\\n     */\\n    function functionCallWithValue(\\n        address target,\\n        bytes memory data,\\n        uint256 value\\n    ) internal returns (bytes memory) {\\n        return functionCallWithValue(target, data, value, \\\"Address: low-level call with value failed\\\");\\n    }\\n\\n    /**\\n     * @dev Same as {xref-Address-functionCallWithValue-address-bytes-uint256-}[`functionCallWithValue`], but\\n     * with `errorMessage` as a fallback revert reason when `target` reverts.\\n     *\\n     * _Available since v3.1._\\n     */\\n    function functionCallWithValue(\\n        address target,\\n        bytes memory data,\\n        uint256 value,\\n        string memory errorMessage\\n    ) internal returns (bytes memory) {\\n        require(address(this).balance >= value, \\\"Address: insufficient balance for call\\\");\\n        require(isContract(target), \\\"Address: call to non-contract\\\");\\n\\n        (bool success, bytes memory returndata) = target.call{value: value}(data);\\n        return verifyCallResult(success, returndata, errorMessage);\\n    }\\n\\n    /**\\n     * @dev Same as {xref-Address-functionCall-address-bytes-}[`functionCall`],\\n     * but performing a static call.\\n     *\\n     * _Available since v3.3._\\n     */\\n    function functionStaticCall(address target, bytes memory data) internal view returns (bytes memory) {\\n        return functionStaticCall(target, data, \\\"Address: low-level static call failed\\\");\\n    }\\n\\n    /**\\n     * @dev Same as {xref-Address-functionCall-address-bytes-string-}[`functionCall`],\\n     * but performing a static call.\\n     *\\n     * _Available since v3.3._\\n     */\\n    function functionStaticCall(\\n        address target,\\n        bytes memory data,\\n        string memory errorMessage\\n    ) internal view returns (bytes memory) {\\n        require(isContract(target), \\\"Address: static call to non-contract\\\");\\n\\n        (bool success, bytes memory returndata) = target.staticcall(data);\\n        return verifyCallResult(success, returndata, errorMessage);\\n    }\\n\\n    /**\\n     * @dev Tool to verifies that a low level call was successful, and revert if it wasn't, either by bubbling the\\n     * revert reason using the provided one.\\n     *\\n     * _Available since v4.3._\\n     */\\n    function verifyCallResult(\\n        bool success,\\n        bytes memory returndata,\\n        string memory errorMessage\\n    ) internal pure returns (bytes memory) {\\n        if (success) {\\n            return returndata;\\n        } else {\\n            // Look for revert reason and bubble it up if present\\n            if (returndata.length > 0) {\\n                // The easiest way to bubble the revert reason is using memory via assembly\\n\\n                assembly {\\n                    let returndata_size := mload(returndata)\\n                    revert(add(32, returndata), returndata_size)\\n                }\\n            } else {\\n                revert(errorMessage);\\n            }\\n        }\\n    }\\n}\\n\",\"keccak256\":\"0x3f0f878c796dfc7feba6d3c4e3e526c14c7deae8b7bfc71088e3f38fab0d77b3\",\"license\":\"MIT\"},\"@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n// OpenZeppelin Contracts v4.4.1 (utils/StorageSlot.sol)\\n\\npragma solidity ^0.8.0;\\n\\n/**\\n * @dev Library for reading and writing primitive types to specific storage slots.\\n *\\n * Storage slots are often used to avoid storage conflict when dealing with upgradeable contracts.\\n * This library helps with reading and writing to such slots without the need for inline assembly.\\n *\\n * The functions in this library return Slot structs that contain a `value` member that can be used to read or write.\\n *\\n * Example usage to set ERC1967 implementation slot:\\n * ```\\n * contract ERC1967 {\\n *     bytes32 internal constant _IMPLEMENTATION_SLOT = 0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc;\\n *\\n *     function _getImplementation() internal view returns (address) {\\n *         return StorageSlot.getAddressSlot(_IMPLEMENTATION_SLOT).value;\\n *     }\\n *\\n *     function _setImplementation(address newImplementation) internal {\\n *         require(Address.isContract(newImplementation), \\\"ERC1967: new implementation is not a contract\\\");\\n *         StorageSlot.getAddressSlot(_IMPLEMENTATION_SLOT).value = newImplementation;\\n *     }\\n * }\\n * ```\\n *\\n * _Available since v4.1 for `address`, `bool`, `bytes32`, and `uint256`._\\n */\\nlibrary StorageSlotUpgradeable {\\n    struct AddressSlot {\\n        address value;\\n    }\\n\\n    struct BooleanSlot {\\n        bool value;\\n    }\\n\\n    struct Bytes32Slot {\\n        bytes32 value;\\n    }\\n\\n    struct Uint256Slot {\\n        uint256 value;\\n    }\\n\\n    /**\\n     * @dev Returns an `AddressSlot` with member `value` located at `slot`.\\n     */\\n    function getAddressSlot(bytes32 slot) internal pure returns (AddressSlot storage r) {\\n        assembly {\\n            r.slot := slot\\n        }\\n    }\\n\\n    /**\\n     * @dev Returns an `BooleanSlot` with member `value` located at `slot`.\\n     */\\n    function getBooleanSlot(bytes32 slot) internal pure returns (BooleanSlot storage r) {\\n        assembly {\\n            r.slot := slot\\n        }\\n    }\\n\\n    /**\\n     * @dev Returns an `Bytes32Slot` with member `value` located at `slot`.\\n     */\\n    function getBytes32Slot(bytes32 slot) internal pure returns (Bytes32Slot storage r) {\\n        assembly {\\n            r.slot := slot\\n        }\\n    }\\n\\n    /**\\n     * @dev Returns an `Uint256Slot` with member `value` located at `slot`.\\n     */\\n    function getUint256Slot(bytes32 slot) internal pure returns (Uint256Slot storage r) {\\n        assembly {\\n            r.slot := slot\\n        }\\n    }\\n}\\n\",\"keccak256\":\"0x422c3d27d0d5681cea93acbb0dcb175fa5b461b5b7731da7ff77e51f0f0174c7\",\"license\":\"MIT\"},\"contracts/interfaces/ERC165Spec.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\r\\npragma solidity ^0.8.4;\\r\\n\\r\\n/**\\r\\n * @title ERC-165 Standard Interface Detection\\r\\n *\\r\\n * @dev Interface of the ERC165 standard, as defined in the\\r\\n *       https://eips.ethereum.org/EIPS/eip-165[EIP].\\r\\n *\\r\\n * @dev Implementers can declare support of contract interfaces,\\r\\n *      which can then be queried by others.\\r\\n *\\r\\n * @author Christian Reitwie\\u00dfner, Nick Johnson, Fabian Vogelsteller, Jordi Baylina, Konrad Feldmeier, William Entriken\\r\\n */\\r\\ninterface ERC165 {\\r\\n\\t/**\\r\\n\\t * @notice Query if a contract implements an interface\\r\\n\\t *\\r\\n\\t * @dev Interface identification is specified in ERC-165.\\r\\n\\t *      This function uses less than 30,000 gas.\\r\\n\\t *\\r\\n\\t * @param interfaceID The interface identifier, as specified in ERC-165\\r\\n\\t * @return `true` if the contract implements `interfaceID` and\\r\\n\\t *      `interfaceID` is not 0xffffffff, `false` otherwise\\r\\n\\t */\\r\\n\\tfunction supportsInterface(bytes4 interfaceID) external view returns (bool);\\r\\n}\\r\\n\",\"keccak256\":\"0x6e472f0c1530ad4527344be6a4b9dc2e69d4fb154cc64b11955e29aac53ad2fc\",\"license\":\"MIT\"},\"contracts/interfaces/PriceOracleSpec.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\r\\npragma solidity ^0.8.4;\\r\\n\\r\\n/**\\r\\n * @title Pair Price Oracle, a.k.a. Pair Oracle\\r\\n *\\r\\n * @notice Generic interface used to consult on the Uniswap-like token pairs conversion prices;\\r\\n *      one pair oracle is used to consult on the exchange rate within a single token pair\\r\\n *\\r\\n * @notice See also: https://docs.uniswap.org/protocol/V2/guides/smart-contract-integration/building-an-oracle\\r\\n *\\r\\n * @author Basil Gorin\\r\\n */\\r\\ninterface PairOracle {\\r\\n\\t/**\\r\\n\\t * @notice Updates the oracle with the price values if required, for example\\r\\n\\t *      the cumulative price at the start and end of a period, etc.\\r\\n\\t *\\r\\n\\t * @dev This function is part of the oracle maintenance flow\\r\\n\\t */\\r\\n\\tfunction update() external;\\r\\n\\r\\n\\t/**\\r\\n\\t * @notice For a pair of tokens A/B (sell/buy), consults on the amount of token B to be\\r\\n\\t *      bought if the specified amount of token A to be sold\\r\\n\\t *\\r\\n\\t * @dev This function is part of the oracle usage flow\\r\\n\\t *\\r\\n\\t * @param token token A (token to sell) address\\r\\n\\t * @param amountIn amount of token A to sell\\r\\n\\t * @return amountOut amount of token B to be bought\\r\\n\\t */\\r\\n\\tfunction consult(address token, uint256 amountIn) external view returns (uint256 amountOut);\\r\\n}\\r\\n\\r\\n/**\\r\\n * @title Price Oracle Registry\\r\\n *\\r\\n * @notice To make pair oracles more convenient to use, a more generic Oracle Registry\\r\\n *        interface is introduced: it stores the addresses of pair price oracles and allows\\r\\n *        searching/querying for them\\r\\n *\\r\\n * @author Basil Gorin\\r\\n */\\r\\ninterface PriceOracleRegistry {\\r\\n\\t/**\\r\\n\\t * @notice Searches for the Pair Price Oracle for A/B (sell/buy) token pair\\r\\n\\t *\\r\\n\\t * @param tokenA token A (token to sell) address\\r\\n\\t * @param tokenB token B (token to buy) address\\r\\n\\t * @return pairOracle pair price oracle address for A/B token pair\\r\\n\\t */\\r\\n\\tfunction getPriceOracle(address tokenA, address tokenB) external view returns (address pairOracle);\\r\\n}\\r\\n\\r\\n/**\\r\\n * @title Land Sale Price Oracle\\r\\n *\\r\\n * @notice Supports the Land Sale with the ETH/ILV conversion required,\\r\\n *       marker interface is required to support ERC165 lookups\\r\\n *\\r\\n * @author Basil Gorin\\r\\n */\\r\\ninterface LandSalePriceOracle {\\r\\n\\t/**\\r\\n\\t * @notice Powers the ETH/ILV Land token price conversion, used when\\r\\n\\t *      selling the land for sILV to determine how much sILV to accept\\r\\n\\t *      instead of the nominated ETH price\\r\\n\\t *\\r\\n\\t * @notice Note that sILV price is considered to be equal to ILV price\\r\\n\\t *\\r\\n\\t * @dev Implementation must guarantee not to return zero, absurdly small\\r\\n\\t *      or big values, it must guarantee the price is up to date with some\\r\\n\\t *      reasonable update interval threshold\\r\\n\\t *\\r\\n\\t * @param ethOut amount of ETH sale contract is expecting to get\\r\\n\\t * @return ilvIn amount of sILV sale contract should accept instead\\r\\n\\t */\\r\\n\\tfunction ethToIlv(uint256 ethOut) external returns (uint256 ilvIn);\\r\\n}\\r\\n\",\"keccak256\":\"0x61394c65c68a06e828b1569354f241ff8d2e18b9b98b646c82728fcbca9f0a7c\",\"license\":\"MIT\"},\"contracts/mocks/ChainlinkAggregatorV3Mock.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\r\\npragma solidity ^0.8.4;\\r\\n\\r\\nimport \\\"../interfaces/ERC165Spec.sol\\\";\\r\\nimport \\\"../interfaces/PriceOracleSpec.sol\\\";\\r\\nimport \\\"../protocol/LandSalePriceOracleV1.sol\\\";\\r\\nimport \\\"@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol\\\";\\r\\n\\r\\n/**\\r\\n * @title Chainlink Price Feed Aggregator V3 Mock\\r\\n *\\r\\n * @notice Supports the Land Sale Price Oracle with the ILV/ETH price feed\\r\\n *\\r\\n * @dev Enables testing of the feed, playing with current timestamp\\r\\n *\\r\\n * @author Basil Gorin\\r\\n */\\r\\ncontract ChainlinkAggregatorV3Mock is AggregatorV3Interface {\\r\\n\\t// values returned by `latestRoundData()`\\r\\n\\tuint80 public roundIdMocked = 1;\\r\\n\\tint256 public answerMocked = -1;\\r\\n\\tuint256 public startedAtMocked = type(uint256).max;\\r\\n\\tuint256 public updatedAtMocked = type(uint256).max;\\r\\n\\tuint80 public answeredInRoundMocked = 1;\\r\\n\\t// answer (conversion rate) is derived from the ILV/ETH ratio\\r\\n\\t// initial conversion rate is 1 ETH = 4 ILV\\r\\n\\tuint256 public ethOut = 1;\\r\\n\\tuint256 public ilvIn = 4;\\r\\n\\r\\n\\t/// @dev overridden value to use as now32()\\r\\n\\tuint256 private _now256;\\r\\n\\r\\n\\t/// @dev overrides now256()\\r\\n\\tfunction setNow256(uint256 value) public {\\r\\n\\t\\t_now256 = value;\\r\\n\\t}\\r\\n\\r\\n\\t/**\\r\\n\\t * @dev Testing time-dependent functionality may be difficult;\\r\\n\\t *      we override time in the helper test smart contract (mock)\\r\\n\\t *\\r\\n\\t * @return `block.timestamp` in mainnet, custom values in testnets (if overridden)\\r\\n\\t */\\r\\n\\tfunction now256() public view returns (uint256) {\\r\\n\\t\\treturn _now256 > 0? _now256: block.timestamp;\\r\\n\\t}\\r\\n\\r\\n\\t/**\\r\\n\\t * @dev Overrides roundId, answer, startedAt, updatedAt, answeredInRound\\r\\n\\t */\\r\\n\\tfunction setMockedValues(\\r\\n\\t\\tuint80 roundId,\\r\\n\\t\\tint256 answer,\\r\\n\\t\\tuint256 startedAt,\\r\\n\\t\\tuint256 updatedAt,\\r\\n\\t\\tuint80 answeredInRound\\r\\n\\t) public {\\r\\n\\t\\troundIdMocked = roundId;\\r\\n\\t\\tanswerMocked = answer;\\r\\n\\t\\tstartedAtMocked = startedAt;\\r\\n\\t\\tupdatedAtMocked = updatedAt;\\r\\n\\t\\tansweredInRoundMocked = answeredInRound;\\r\\n\\t}\\r\\n\\r\\n\\t// updates the conversion rate\\r\\n\\tfunction setRate(uint256 _ethOut, uint256 _ilvIn) public {\\r\\n\\t\\tethOut = _ethOut;\\r\\n\\t\\tilvIn = _ilvIn;\\r\\n\\t}\\r\\n\\r\\n\\t/**\\r\\n\\t * @inheritdoc AggregatorV3Interface\\r\\n\\t */\\r\\n\\tfunction decimals() public pure override returns (uint8) {\\r\\n\\t\\treturn 18;\\r\\n\\t}\\r\\n\\r\\n\\t/**\\r\\n\\t * @inheritdoc AggregatorV3Interface\\r\\n\\t */\\r\\n\\tfunction description() public pure override returns (string memory) {\\r\\n\\t\\treturn \\\"ILV / ETH (Mock!)\\\";\\r\\n\\t}\\r\\n\\r\\n\\t/**\\r\\n\\t * @inheritdoc AggregatorV3Interface\\r\\n\\t */\\r\\n\\tfunction version() public pure override returns (uint256) {\\r\\n\\t\\treturn 0;\\r\\n\\t}\\r\\n\\r\\n\\t/**\\r\\n\\t * @inheritdoc AggregatorV3Interface\\r\\n\\t */\\r\\n\\tfunction getRoundData(uint80 _roundId) public view override returns (\\r\\n\\t\\tuint80 roundId,\\r\\n\\t\\tint256 answer,\\r\\n\\t\\tuint256 startedAt,\\r\\n\\t\\tuint256 updatedAt,\\r\\n\\t\\tuint80 answeredInRound\\r\\n\\t) {\\r\\n\\t\\trequire(_roundId == roundIdMocked, \\\"roundId differs from the roundId mocked value\\\");\\r\\n\\t\\treturn latestRoundData();\\r\\n\\t}\\r\\n\\r\\n\\t/**\\r\\n\\t * @inheritdoc AggregatorV3Interface\\r\\n\\t */\\r\\n\\tfunction latestRoundData() public view override returns (\\r\\n\\t\\tuint80 roundId,\\r\\n\\t\\tint256 answer,\\r\\n\\t\\tuint256 startedAt,\\r\\n\\t\\tuint256 updatedAt,\\r\\n\\t\\tuint80 answeredInRound\\r\\n\\t) {\\r\\n\\t\\treturn (\\r\\n\\t\\t\\troundIdMocked,\\r\\n\\t\\t\\tanswerMocked >= 0? answerMocked: int256(10 ** decimals() * ethOut / ilvIn),\\r\\n\\t\\t\\tstartedAtMocked < type(uint256).max? startedAtMocked: now256(),\\r\\n\\t\\t\\tupdatedAtMocked < type(uint256).max? updatedAtMocked: now256(),\\r\\n\\t\\t\\tansweredInRoundMocked\\r\\n\\t\\t);\\r\\n\\t}\\r\\n\\r\\n}\\r\\n\",\"keccak256\":\"0xacf0dcfabddff27449f0f599560d2f16b3ee5e50e6353bd5d2593934ffff6912\",\"license\":\"MIT\"},\"contracts/protocol/LandSalePriceOracleV1.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\r\\npragma solidity ^0.8.4;\\r\\n\\r\\nimport \\\"../interfaces/ERC165Spec.sol\\\";\\r\\nimport \\\"../interfaces/PriceOracleSpec.sol\\\";\\r\\nimport \\\"../utils/UpgradeableAccessControl.sol\\\";\\r\\nimport \\\"@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol\\\";\\r\\n\\r\\n/**\\r\\n * @title Chainlink Price Feed Aggregator based Land Sale Price Oracle\\r\\n *\\r\\n * @notice LandSalePriceOracle implementation based on ILV/ETH Chainlink price feeds,\\r\\n *      see https://docs.chain.link/docs/ethereum-addresses/\\r\\n *      see https://docs.chain.link/docs/using-chainlink-reference-contracts/\\r\\n *\\r\\n * @author Basil Gorin\\r\\n */\\r\\ncontract LandSalePriceOracleV1 is ERC165, LandSalePriceOracle, UpgradeableAccessControl {\\r\\n\\t/**\\r\\n\\t * @notice Chainlink ILV/ETH price feed aggregator maintains ILV/ETH price feed\\r\\n\\t */\\r\\n\\tAggregatorV3Interface public aggregator;\\r\\n\\r\\n\\t/**\\r\\n\\t * @notice When communicating with Chainlink ILV/ETH price feed, we verify how old\\r\\n\\t *      the IV/ETH price is, and if it is older than `oldAnswerThreshold`, the answer\\r\\n\\t *      is treated as old and is not used: `ethToIlv` conversion function throws in this case\\r\\n\\t */\\r\\n\\tuint256 public oldAnswerThreshold;\\r\\n\\r\\n\\t/**\\r\\n\\t * @notice Price Oracle manager is responsible for updating `oldAnswerThreshold` value,\\r\\n\\t *      and other price oracle configuration values in the future\\r\\n\\t *\\r\\n\\t * @dev Role ROLE_PRICE_ORACLE_MANAGER allows updating the `oldAnswerThreshold` value\\r\\n\\t *      (executing `setOldAnswerThreshold` function)\\r\\n\\t */\\r\\n\\tuint32 public constant ROLE_PRICE_ORACLE_MANAGER = 0x0001_0000;\\r\\n\\r\\n\\t/**\\r\\n\\t * @dev Fired in setOldAnswerThreshold()\\r\\n\\t *\\r\\n\\t * @param _by an address which executed update\\r\\n\\t * @param _oldVal old oldAnswerThreshold value\\r\\n\\t * @param _newVal new oldAnswerThreshold value\\r\\n\\t */\\r\\n\\tevent OldAnswerThresholdUpdated(address indexed _by, uint256 _oldVal, uint256 _newVal);\\r\\n\\r\\n\\t/**\\r\\n\\t * @dev \\\"Constructor replacement\\\" for upgradeable, must be execute immediately after deployment\\r\\n\\t *      see https://docs.openzeppelin.com/upgrades-plugins/1.x/writing-upgradeable#initializers\\r\\n\\t *\\r\\n\\t * @param _aggregator Chainlink ILV/ETH price feed aggregator address\\r\\n\\t */\\r\\n\\tfunction postConstruct(address _aggregator) public virtual initializer {\\r\\n\\t\\t// verify the inputs are set\\r\\n\\t\\trequire(_aggregator != address(0), \\\"aggregator address is not set\\\");\\r\\n\\r\\n\\t\\t// assign the addresses\\r\\n\\t\\taggregator = AggregatorV3Interface(_aggregator);\\r\\n\\r\\n\\t\\t// set the default value for the threshold\\r\\n\\t\\toldAnswerThreshold = 30 hours;\\r\\n\\r\\n\\t\\t// verify the inputs are valid smart contracts of the expected interfaces\\r\\n\\t\\t// since Chainlink AggregatorV3Interface doesn't support ERC165, verify\\r\\n\\t\\t// by executing the functions we're going to use anyway\\r\\n\\t\\t// get the data\\r\\n\\t\\tuint8 decimals = aggregator.decimals();\\r\\n\\t\\t(\\r\\n\\t\\t\\tuint80 roundId,\\r\\n\\t\\t\\tint256 answer,\\r\\n\\t\\t\\tuint256 startedAt,\\r\\n\\t\\t\\tuint256 updatedAt,\\r\\n\\t\\t\\tuint80 answeredInRound\\r\\n\\t\\t) = aggregator.latestRoundData();\\r\\n\\t\\t// verify the response\\r\\n\\t\\trequire(\\r\\n\\t\\t\\tdecimals > 0 && roundId > 0 && answer > 0 && startedAt > 0 && updatedAt > 0 && answeredInRound > 0,\\r\\n\\t\\t\\t\\\"unexpected aggregator response\\\"\\r\\n\\t\\t);\\r\\n\\r\\n\\t\\t// execute all parent initializers in cascade\\r\\n\\t\\tUpgradeableAccessControl._postConstruct(msg.sender);\\r\\n\\t}\\r\\n\\r\\n\\t/**\\r\\n\\t * @notice Restricted access function to update `oldAnswerThreshold` value, used\\r\\n\\t *       in `ethToIlv` conversion function to determine if Chainlink ILV/ETH price feed\\r\\n\\t *       returns the value fresh enough to be used\\r\\n\\t *\\r\\n\\t * @notice Note: `ethToIlv` conversion function throws if Chainlink ILV/ETH price feed\\r\\n\\t *      answer is older then `oldAnswerThreshold` value\\r\\n\\t *\\r\\n\\t * @notice Chainlink is expected to update ILV/ETH price at least one per day (24 hours)\\r\\n\\t *      therefore `oldAnswerThreshold` should be kept bigger than 24 hours\\r\\n\\t *\\r\\n\\t * @param _oldAnswerThreshold `oldAnswerThreshold` value to set\\r\\n\\t */\\r\\n\\tfunction setOldAnswerThreshold(uint256 _oldAnswerThreshold) public {\\r\\n\\t\\t// verify the access permission\\r\\n\\t\\trequire(isSenderInRole(ROLE_PRICE_ORACLE_MANAGER), \\\"access denied\\\");\\r\\n\\r\\n\\t\\t// check that the value supplied resides in a reasonable bounds\\r\\n\\t\\trequire(_oldAnswerThreshold > 1 hours, \\\"threshold too low\\\");\\r\\n\\t\\trequire(_oldAnswerThreshold < 7 days, \\\"threshold too high\\\");\\r\\n\\r\\n\\t\\t// emit an event first - to log both old and new values\\r\\n\\t\\temit OldAnswerThresholdUpdated(msg.sender, oldAnswerThreshold, _oldAnswerThreshold);\\r\\n\\r\\n\\t\\t// update the `oldAnswerThreshold` value\\r\\n\\t\\toldAnswerThreshold = _oldAnswerThreshold;\\r\\n\\t}\\r\\n\\r\\n\\t/**\\r\\n\\t * @inheritdoc ERC165\\r\\n\\t */\\r\\n\\tfunction supportsInterface(bytes4 interfaceID) public view virtual override returns (bool) {\\r\\n\\t\\t// determine and return the interface support\\r\\n\\t\\treturn interfaceID == type(LandSalePriceOracle).interfaceId;\\r\\n\\t}\\r\\n\\r\\n\\t/**\\r\\n\\t * @inheritdoc LandSalePriceOracle\\r\\n\\t */\\r\\n\\tfunction ethToIlv(uint256 ethOut) public view virtual override returns (uint256 ilvIn) {\\r\\n\\t\\t// get the latest round data from Chainlink price feed aggregator\\r\\n\\t\\t// see https://docs.chain.link/docs/price-feeds-api-reference/#latestrounddata\\r\\n\\t\\t(\\r\\n\\t\\t\\tuint80 roundId,\\r\\n\\t\\t\\tint256 answer,\\r\\n\\t\\t\\tuint256 startedAt,\\r\\n\\t\\t\\tuint256 updatedAt,\\r\\n\\t\\t\\tuint80 answeredInRound\\r\\n\\t\\t) = aggregator.latestRoundData();\\r\\n\\r\\n\\t\\t// verify if the data obtained from Chainlink looks fresh, updated recently\\r\\n\\t\\t// TODO: review and check with Chainlink this is a correct way of ensuring data freshness\\r\\n\\t\\trequire(roundId == answeredInRound && startedAt <= updatedAt && updatedAt <= now256(), \\\"invalid answer\\\");\\r\\n\\t\\trequire(updatedAt > now256() - oldAnswerThreshold, \\\"answer is too old\\\");\\r\\n\\r\\n\\t\\t// calculate according to `ethOut * ilvIn / ethOut` formula and return\\r\\n\\t\\treturn ethOut * 10 ** aggregator.decimals() / uint256(answer);\\r\\n\\t}\\r\\n\\r\\n\\t/**\\r\\n\\t * @dev Testing time-dependent functionality may be difficult;\\r\\n\\t *      we override time in the helper test smart contract (mock)\\r\\n\\t *\\r\\n\\t * @return `block.timestamp` in mainnet, custom values in testnets (if overridden)\\r\\n\\t */\\r\\n\\tfunction now256() public view virtual returns (uint256) {\\r\\n\\t\\t// return current block timestamp\\r\\n\\t\\treturn block.timestamp;\\r\\n\\t}\\r\\n}\\r\\n\",\"keccak256\":\"0x800c55f0ca16c0d045a4f9111d1ea9cb87003953becba382ee4032630f559c96\",\"license\":\"MIT\"},\"contracts/utils/UpgradeableAccessControl.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\r\\npragma solidity ^0.8.4;\\r\\n\\r\\nimport \\\"@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol\\\";\\r\\n\\r\\n/**\\r\\n * @title Upgradeable Access Control List // ERC1967Proxy\\r\\n *\\r\\n * @notice Access control smart contract provides an API to check\\r\\n *      if a specific operation is permitted globally and/or\\r\\n *      if a particular user has a permission to execute it.\\r\\n *\\r\\n * @notice It deals with two main entities: features and roles.\\r\\n *\\r\\n * @notice Features are designed to be used to enable/disable public functions\\r\\n *      of the smart contract (used by a wide audience).\\r\\n * @notice User roles are designed to control the access to restricted functions\\r\\n *      of the smart contract (used by a limited set of maintainers).\\r\\n *\\r\\n * @notice Terms \\\"role\\\", \\\"permissions\\\" and \\\"set of permissions\\\" have equal meaning\\r\\n *      in the documentation text and may be used interchangeably.\\r\\n * @notice Terms \\\"permission\\\", \\\"single permission\\\" implies only one permission bit set.\\r\\n *\\r\\n * @notice Access manager is a special role which allows to grant/revoke other roles.\\r\\n *      Access managers can only grant/revoke permissions which they have themselves.\\r\\n *      As an example, access manager with no other roles set can only grant/revoke its own\\r\\n *      access manager permission and nothing else.\\r\\n *\\r\\n * @notice Access manager permission should be treated carefully, as a super admin permission:\\r\\n *      Access manager with even no other permission can interfere with another account by\\r\\n *      granting own access manager permission to it and effectively creating more powerful\\r\\n *      permission set than its own.\\r\\n *\\r\\n * @dev Both current and OpenZeppelin AccessControl implementations feature a similar API\\r\\n *      to check/know \\\"who is allowed to do this thing\\\".\\r\\n * @dev Zeppelin implementation is more flexible:\\r\\n *      - it allows setting unlimited number of roles, while current is limited to 256 different roles\\r\\n *      - it allows setting an admin for each role, while current allows having only one global admin\\r\\n * @dev Current implementation is more lightweight:\\r\\n *      - it uses only 1 bit per role, while Zeppelin uses 256 bits\\r\\n *      - it allows setting up to 256 roles at once, in a single transaction, while Zeppelin allows\\r\\n *        setting only one role in a single transaction\\r\\n *\\r\\n * @dev This smart contract is designed to be inherited by other\\r\\n *      smart contracts which require access control management capabilities.\\r\\n *\\r\\n * @dev Access manager permission has a bit 255 set.\\r\\n *      This bit must not be used by inheriting contracts for any other permissions/features.\\r\\n *\\r\\n * @dev This is an upgradeable version of the ACL, based on Zeppelin implementation for ERC1967,\\r\\n *      see https://docs.openzeppelin.com/contracts/4.x/upgradeable\\r\\n *      see https://docs.openzeppelin.com/contracts/4.x/api/proxy#UUPSUpgradeable\\r\\n *      see https://forum.openzeppelin.com/t/uups-proxies-tutorial-solidity-javascript/7786\\r\\n *\\r\\n * @author Basil Gorin\\r\\n */\\r\\nabstract contract UpgradeableAccessControl is UUPSUpgradeable {\\r\\n\\t/**\\r\\n\\t * @notice Privileged addresses with defined roles/permissions\\r\\n\\t * @notice In the context of ERC20/ERC721 tokens these can be permissions to\\r\\n\\t *      allow minting or burning tokens, transferring on behalf and so on\\r\\n\\t *\\r\\n\\t * @dev Maps user address to the permissions bitmask (role), where each bit\\r\\n\\t *      represents a permission\\r\\n\\t * @dev Bitmask 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF\\r\\n\\t *      represents all possible permissions\\r\\n\\t * @dev 'This' address mapping represents global features of the smart contract\\r\\n\\t */\\r\\n\\tmapping(address => uint256) public userRoles;\\r\\n\\r\\n\\t/**\\r\\n\\t * @dev Empty reserved space in storage. The size of the __gap array is calculated so that\\r\\n\\t *      the amount of storage used by a contract always adds up to the 50.\\r\\n\\t *      See https://docs.openzeppelin.com/contracts/4.x/upgradeable#storage_gaps\\r\\n\\t */\\r\\n\\tuint256[49] private __gap;\\r\\n\\r\\n\\t/**\\r\\n\\t * @notice Access manager is responsible for assigning the roles to users,\\r\\n\\t *      enabling/disabling global features of the smart contract\\r\\n\\t * @notice Access manager can add, remove and update user roles,\\r\\n\\t *      remove and update global features\\r\\n\\t *\\r\\n\\t * @dev Role ROLE_ACCESS_MANAGER allows modifying user roles and global features\\r\\n\\t * @dev Role ROLE_ACCESS_MANAGER has single bit at position 255 enabled\\r\\n\\t */\\r\\n\\tuint256 public constant ROLE_ACCESS_MANAGER = 0x8000000000000000000000000000000000000000000000000000000000000000;\\r\\n\\r\\n\\t/**\\r\\n\\t * @notice Upgrade manager is responsible for smart contract upgrades,\\r\\n\\t *      see https://docs.openzeppelin.com/contracts/4.x/api/proxy#UUPSUpgradeable\\r\\n\\t *      see https://docs.openzeppelin.com/contracts/4.x/upgradeable\\r\\n\\t *\\r\\n\\t * @dev Role ROLE_UPGRADE_MANAGER allows passing the _authorizeUpgrade() check\\r\\n\\t * @dev Role ROLE_UPGRADE_MANAGER has single bit at position 254 enabled\\r\\n\\t */\\r\\n\\tuint256 public constant ROLE_UPGRADE_MANAGER = 0x4000000000000000000000000000000000000000000000000000000000000000;\\r\\n\\r\\n\\t/**\\r\\n\\t * @dev Bitmask representing all the possible permissions (super admin role)\\r\\n\\t * @dev Has all the bits are enabled (2^256 - 1 value)\\r\\n\\t */\\r\\n\\tuint256 private constant FULL_PRIVILEGES_MASK = type(uint256).max; // before 0.8.0: uint256(-1) overflows to 0xFFFF...\\r\\n\\r\\n\\t/**\\r\\n\\t * @dev Fired in updateRole() and updateFeatures()\\r\\n\\t *\\r\\n\\t * @param _by operator which called the function\\r\\n\\t * @param _to address which was granted/revoked permissions\\r\\n\\t * @param _requested permissions requested\\r\\n\\t * @param _actual permissions effectively set\\r\\n\\t */\\r\\n\\tevent RoleUpdated(address indexed _by, address indexed _to, uint256 _requested, uint256 _actual);\\r\\n\\r\\n\\t/**\\r\\n\\t * @dev UUPS initializer, sets the contract owner to have full privileges\\r\\n\\t *\\r\\n\\t * @param _owner smart contract owner having full privileges\\r\\n\\t */\\r\\n\\tfunction _postConstruct(address _owner) internal virtual initializer {\\r\\n\\t\\t// grant owner full privileges\\r\\n\\t\\tuserRoles[_owner] = FULL_PRIVILEGES_MASK;\\r\\n\\r\\n\\t\\t// fire an event\\r\\n\\t\\temit RoleUpdated(msg.sender, _owner, FULL_PRIVILEGES_MASK, FULL_PRIVILEGES_MASK);\\r\\n\\t}\\r\\n\\r\\n\\t/**\\r\\n\\t * @notice Returns an address of the implementation smart contract,\\r\\n\\t *      see ERC1967Upgrade._getImplementation()\\r\\n\\t *\\r\\n\\t * @return the current implementation address\\r\\n\\t */\\r\\n\\tfunction getImplementation() public view virtual returns (address) {\\r\\n\\t\\t// delegate to `ERC1967Upgrade._getImplementation()`\\r\\n\\t\\treturn _getImplementation();\\r\\n\\t}\\r\\n\\r\\n\\t/**\\r\\n\\t * @notice Retrieves globally set of features enabled\\r\\n\\t *\\r\\n\\t * @dev Effectively reads userRoles role for the contract itself\\r\\n\\t *\\r\\n\\t * @return 256-bit bitmask of the features enabled\\r\\n\\t */\\r\\n\\tfunction features() public view returns (uint256) {\\r\\n\\t\\t// features are stored in 'this' address  mapping of `userRoles` structure\\r\\n\\t\\treturn userRoles[address(this)];\\r\\n\\t}\\r\\n\\r\\n\\t/**\\r\\n\\t * @notice Updates set of the globally enabled features (`features`),\\r\\n\\t *      taking into account sender's permissions\\r\\n\\t *\\r\\n\\t * @dev Requires transaction sender to have `ROLE_ACCESS_MANAGER` permission\\r\\n\\t * @dev Function is left for backward compatibility with older versions\\r\\n\\t *\\r\\n\\t * @param _mask bitmask representing a set of features to enable/disable\\r\\n\\t */\\r\\n\\tfunction updateFeatures(uint256 _mask) public {\\r\\n\\t\\t// delegate call to `updateRole`\\r\\n\\t\\tupdateRole(address(this), _mask);\\r\\n\\t}\\r\\n\\r\\n\\t/**\\r\\n\\t * @notice Updates set of permissions (role) for a given user,\\r\\n\\t *      taking into account sender's permissions.\\r\\n\\t *\\r\\n\\t * @dev Setting role to zero is equivalent to removing an all permissions\\r\\n\\t * @dev Setting role to `FULL_PRIVILEGES_MASK` is equivalent to\\r\\n\\t *      copying senders' permissions (role) to the user\\r\\n\\t * @dev Requires transaction sender to have `ROLE_ACCESS_MANAGER` permission\\r\\n\\t *\\r\\n\\t * @param operator address of a user to alter permissions for or zero\\r\\n\\t *      to alter global features of the smart contract\\r\\n\\t * @param role bitmask representing a set of permissions to\\r\\n\\t *      enable/disable for a user specified\\r\\n\\t */\\r\\n\\tfunction updateRole(address operator, uint256 role) public {\\r\\n\\t\\t// caller must have a permission to update user roles\\r\\n\\t\\trequire(isSenderInRole(ROLE_ACCESS_MANAGER), \\\"access denied\\\");\\r\\n\\r\\n\\t\\t// evaluate the role and reassign it\\r\\n\\t\\tuserRoles[operator] = evaluateBy(msg.sender, userRoles[operator], role);\\r\\n\\r\\n\\t\\t// fire an event\\r\\n\\t\\temit RoleUpdated(msg.sender, operator, role, userRoles[operator]);\\r\\n\\t}\\r\\n\\r\\n\\t/**\\r\\n\\t * @notice Determines the permission bitmask an operator can set on the\\r\\n\\t *      target permission set\\r\\n\\t * @notice Used to calculate the permission bitmask to be set when requested\\r\\n\\t *     in `updateRole` and `updateFeatures` functions\\r\\n\\t *\\r\\n\\t * @dev Calculated based on:\\r\\n\\t *      1) operator's own permission set read from userRoles[operator]\\r\\n\\t *      2) target permission set - what is already set on the target\\r\\n\\t *      3) desired permission set - what do we want set target to\\r\\n\\t *\\r\\n\\t * @dev Corner cases:\\r\\n\\t *      1) Operator is super admin and its permission set is `FULL_PRIVILEGES_MASK`:\\r\\n\\t *        `desired` bitset is returned regardless of the `target` permission set value\\r\\n\\t *        (what operator sets is what they get)\\r\\n\\t *      2) Operator with no permissions (zero bitset):\\r\\n\\t *        `target` bitset is returned regardless of the `desired` value\\r\\n\\t *        (operator has no authority and cannot modify anything)\\r\\n\\t *\\r\\n\\t * @dev Example:\\r\\n\\t *      Consider an operator with the permissions bitmask     00001111\\r\\n\\t *      is about to modify the target permission set          01010101\\r\\n\\t *      Operator wants to set that permission set to          00110011\\r\\n\\t *      Based on their role, an operator has the permissions\\r\\n\\t *      to update only lowest 4 bits on the target, meaning that\\r\\n\\t *      high 4 bits of the target set in this example is left\\r\\n\\t *      unchanged and low 4 bits get changed as desired:      01010011\\r\\n\\t *\\r\\n\\t * @param operator address of the contract operator which is about to set the permissions\\r\\n\\t * @param target input set of permissions to operator is going to modify\\r\\n\\t * @param desired desired set of permissions operator would like to set\\r\\n\\t * @return resulting set of permissions given operator will set\\r\\n\\t */\\r\\n\\tfunction evaluateBy(address operator, uint256 target, uint256 desired) public view returns (uint256) {\\r\\n\\t\\t// read operator's permissions\\r\\n\\t\\tuint256 p = userRoles[operator];\\r\\n\\r\\n\\t\\t// taking into account operator's permissions,\\r\\n\\t\\t// 1) enable the permissions desired on the `target`\\r\\n\\t\\ttarget |= p & desired;\\r\\n\\t\\t// 2) disable the permissions desired on the `target`\\r\\n\\t\\ttarget &= FULL_PRIVILEGES_MASK ^ (p & (FULL_PRIVILEGES_MASK ^ desired));\\r\\n\\r\\n\\t\\t// return calculated result\\r\\n\\t\\treturn target;\\r\\n\\t}\\r\\n\\r\\n\\t/**\\r\\n\\t * @notice Checks if requested set of features is enabled globally on the contract\\r\\n\\t *\\r\\n\\t * @param required set of features to check against\\r\\n\\t * @return true if all the features requested are enabled, false otherwise\\r\\n\\t */\\r\\n\\tfunction isFeatureEnabled(uint256 required) public view returns (bool) {\\r\\n\\t\\t// delegate call to `__hasRole`, passing `features` property\\r\\n\\t\\treturn __hasRole(features(), required);\\r\\n\\t}\\r\\n\\r\\n\\t/**\\r\\n\\t * @notice Checks if transaction sender `msg.sender` has all the permissions required\\r\\n\\t *\\r\\n\\t * @param required set of permissions (role) to check against\\r\\n\\t * @return true if all the permissions requested are enabled, false otherwise\\r\\n\\t */\\r\\n\\tfunction isSenderInRole(uint256 required) public view returns (bool) {\\r\\n\\t\\t// delegate call to `isOperatorInRole`, passing transaction sender\\r\\n\\t\\treturn isOperatorInRole(msg.sender, required);\\r\\n\\t}\\r\\n\\r\\n\\t/**\\r\\n\\t * @notice Checks if operator has all the permissions (role) required\\r\\n\\t *\\r\\n\\t * @param operator address of the user to check role for\\r\\n\\t * @param required set of permissions (role) to check\\r\\n\\t * @return true if all the permissions requested are enabled, false otherwise\\r\\n\\t */\\r\\n\\tfunction isOperatorInRole(address operator, uint256 required) public view returns (bool) {\\r\\n\\t\\t// delegate call to `__hasRole`, passing operator's permissions (role)\\r\\n\\t\\treturn __hasRole(userRoles[operator], required);\\r\\n\\t}\\r\\n\\r\\n\\t/**\\r\\n\\t * @dev Checks if role `actual` contains all the permissions required `required`\\r\\n\\t *\\r\\n\\t * @param actual existent role\\r\\n\\t * @param required required role\\r\\n\\t * @return true if actual has required role (all permissions), false otherwise\\r\\n\\t */\\r\\n\\tfunction __hasRole(uint256 actual, uint256 required) internal pure returns (bool) {\\r\\n\\t\\t// check the bitmask for the role required and return the result\\r\\n\\t\\treturn actual & required == required;\\r\\n\\t}\\r\\n\\r\\n\\t/**\\r\\n\\t * @inheritdoc UUPSUpgradeable\\r\\n\\t */\\r\\n\\tfunction _authorizeUpgrade(address) internal virtual override {\\r\\n\\t\\t// caller must have a permission to upgrade the contract\\r\\n\\t\\trequire(isSenderInRole(ROLE_UPGRADE_MANAGER), \\\"access denied\\\");\\r\\n\\t}\\r\\n}\\r\\n\",\"keccak256\":\"0x84a48920eb3b5ac29146dd9f6b821e07bd51f977debd52357f9b595628190c77\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x60806040526000805460016001600160501b031991821681179092556000198083556002819055600355600480549091168217815560059190915560065534801561004957600080fd5b5061069d806100596000396000f3fe608060405234801561001057600080fd5b50600436106101005760003560e01c80639a6fc8f511610097578063c8a4398211610066578063c8a4398214610272578063cad7e35c1461027b578063e8545ef414610284578063feaf968c1461029757600080fd5b80639a6fc8f5146101c1578063aa47a83214610208578063b6f102a71461021b578063bb97dba61461022457600080fd5b806354fd4d50116100d357806354fd4d50146101755780637284e4161461017c5780637b64853b146101af5780638c73ba19146101b857600080fd5b806301299efb14610105578063313ce5671461013557806346df2ccb146101445780634ce0f9a61461015f575b600080fd5b600454610118906001600160501b031681565b6040516001600160501b0390911681526020015b60405180910390f35b6040516012815260200161012c565b61015d6101523660046103fd565b600591909155600655565b005b61016761029f565b60405190815260200161012c565b6000610167565b6040805180820182526011815270494c56202f2045544820284d6f636b212960781b6020820152905161012c919061041f565b61016760065481565b61016760025481565b6101d46101cf366004610490565b6102b6565b604080516001600160501b03968716815260208101959095528401929092526060830152909116608082015260a00161012c565b61015d6102163660046104b2565b600755565b61016760015481565b61015d6102323660046104cb565b600080546001600160501b0396871669ffffffffffffffffffff199182161790915560019490945560029290925560035560048054919093169116179055565b61016760055481565b61016760035481565b600054610118906001600160501b031681565b6101d4610350565b600080600754116102af57504290565b5060075490565b6000805481908190819081906001600160501b038781169116146103365760405162461bcd60e51b815260206004820152602d60248201527f726f756e64496420646966666572732066726f6d2074686520726f756e64496460448201526c206d6f636b65642076616c756560981b606482015260840160405180910390fd5b61033e610350565b939a9299509097509550909350915050565b60008060008060008060009054906101000a90046001600160501b0316600060015412156103a35760065460055461038a6012600a610617565b6103949190610626565b61039e9190610645565b6103a7565b6001545b600019600254106103bf576103ba61029f565b6103c3565b6002545b600019600354106103db576103d661029f565b6103df565b6003545b600454939992985090965094506001600160501b0390911692509050565b6000806040838503121561041057600080fd5b50508035926020909101359150565b600060208083528351808285015260005b8181101561044c57858101830151858201604001528201610430565b8181111561045e576000604083870101525b50601f01601f1916929092016040019392505050565b80356001600160501b038116811461048b57600080fd5b919050565b6000602082840312156104a257600080fd5b6104ab82610474565b9392505050565b6000602082840312156104c457600080fd5b5035919050565b600080600080600060a086880312156104e357600080fd5b6104ec86610474565b945060208601359350604086013592506060860135915061050f60808701610474565b90509295509295909350565b634e487b7160e01b600052601160045260246000fd5b600181815b8085111561056c5781600019048211156105525761055261051b565b8085161561055f57918102915b93841c9390800290610536565b509250929050565b60008261058357506001610611565b8161059057506000610611565b81600181146105a657600281146105b0576105cc565b6001915050610611565b60ff8411156105c1576105c161051b565b50506001821b610611565b5060208310610133831016604e8410600b84101617156105ef575081810a610611565b6105f98383610531565b806000190482111561060d5761060d61051b565b0290505b92915050565b60006104ab60ff841683610574565b60008160001904831182151516156106405761064061051b565b500290565b60008261066257634e487b7160e01b600052601260045260246000fd5b50049056fea2646970667358221220f7bfb3d2f9da842b7bd52c65183c7baf8bc695f59f5f1abcbcfc3b8b8eb6883f64736f6c634300080b0033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106101005760003560e01c80639a6fc8f511610097578063c8a4398211610066578063c8a4398214610272578063cad7e35c1461027b578063e8545ef414610284578063feaf968c1461029757600080fd5b80639a6fc8f5146101c1578063aa47a83214610208578063b6f102a71461021b578063bb97dba61461022457600080fd5b806354fd4d50116100d357806354fd4d50146101755780637284e4161461017c5780637b64853b146101af5780638c73ba19146101b857600080fd5b806301299efb14610105578063313ce5671461013557806346df2ccb146101445780634ce0f9a61461015f575b600080fd5b600454610118906001600160501b031681565b6040516001600160501b0390911681526020015b60405180910390f35b6040516012815260200161012c565b61015d6101523660046103fd565b600591909155600655565b005b61016761029f565b60405190815260200161012c565b6000610167565b6040805180820182526011815270494c56202f2045544820284d6f636b212960781b6020820152905161012c919061041f565b61016760065481565b61016760025481565b6101d46101cf366004610490565b6102b6565b604080516001600160501b03968716815260208101959095528401929092526060830152909116608082015260a00161012c565b61015d6102163660046104b2565b600755565b61016760015481565b61015d6102323660046104cb565b600080546001600160501b0396871669ffffffffffffffffffff199182161790915560019490945560029290925560035560048054919093169116179055565b61016760055481565b61016760035481565b600054610118906001600160501b031681565b6101d4610350565b600080600754116102af57504290565b5060075490565b6000805481908190819081906001600160501b038781169116146103365760405162461bcd60e51b815260206004820152602d60248201527f726f756e64496420646966666572732066726f6d2074686520726f756e64496460448201526c206d6f636b65642076616c756560981b606482015260840160405180910390fd5b61033e610350565b939a9299509097509550909350915050565b60008060008060008060009054906101000a90046001600160501b0316600060015412156103a35760065460055461038a6012600a610617565b6103949190610626565b61039e9190610645565b6103a7565b6001545b600019600254106103bf576103ba61029f565b6103c3565b6002545b600019600354106103db576103d661029f565b6103df565b6003545b600454939992985090965094506001600160501b0390911692509050565b6000806040838503121561041057600080fd5b50508035926020909101359150565b600060208083528351808285015260005b8181101561044c57858101830151858201604001528201610430565b8181111561045e576000604083870101525b50601f01601f1916929092016040019392505050565b80356001600160501b038116811461048b57600080fd5b919050565b6000602082840312156104a257600080fd5b6104ab82610474565b9392505050565b6000602082840312156104c457600080fd5b5035919050565b600080600080600060a086880312156104e357600080fd5b6104ec86610474565b945060208601359350604086013592506060860135915061050f60808701610474565b90509295509295909350565b634e487b7160e01b600052601160045260246000fd5b600181815b8085111561056c5781600019048211156105525761055261051b565b8085161561055f57918102915b93841c9390800290610536565b509250929050565b60008261058357506001610611565b8161059057506000610611565b81600181146105a657600281146105b0576105cc565b6001915050610611565b60ff8411156105c1576105c161051b565b50506001821b610611565b5060208310610133831016604e8410600b84101617156105ef575081810a610611565b6105f98383610531565b806000190482111561060d5761060d61051b565b0290505b92915050565b60006104ab60ff841683610574565b60008160001904831182151516156106405761064061051b565b500290565b60008261066257634e487b7160e01b600052601260045260246000fd5b50049056fea2646970667358221220f7bfb3d2f9da842b7bd52c65183c7baf8bc695f59f5f1abcbcfc3b8b8eb6883f64736f6c634300080b0033",
+  "devdoc": {
+    "author": "Basil Gorin",
+    "details": "Enables testing of the feed, playing with current timestamp",
+    "kind": "dev",
+    "methods": {
+      "now256()": {
+        "details": "Testing time-dependent functionality may be difficult;      we override time in the helper test smart contract (mock)",
+        "returns": {
+          "_0": "`block.timestamp` in mainnet, custom values in testnets (if overridden)"
+        }
+      },
+      "setMockedValues(uint80,int256,uint256,uint256,uint80)": {
+        "details": "Overrides roundId, answer, startedAt, updatedAt, answeredInRound"
+      },
+      "setNow256(uint256)": {
+        "details": "overrides now256()"
+      }
+    },
+    "stateVariables": {
+      "_now256": {
+        "details": "overridden value to use as now32()"
+      }
+    },
+    "title": "Chainlink Price Feed Aggregator V3 Mock",
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "notice": "Supports the Land Sale Price Oracle with the ILV/ETH price feed",
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 8893,
+        "contract": "contracts/mocks/ChainlinkAggregatorV3Mock.sol:ChainlinkAggregatorV3Mock",
+        "label": "roundIdMocked",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_uint80"
+      },
+      {
+        "astId": 8897,
+        "contract": "contracts/mocks/ChainlinkAggregatorV3Mock.sol:ChainlinkAggregatorV3Mock",
+        "label": "answerMocked",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_int256"
+      },
+      {
+        "astId": 8904,
+        "contract": "contracts/mocks/ChainlinkAggregatorV3Mock.sol:ChainlinkAggregatorV3Mock",
+        "label": "startedAtMocked",
+        "offset": 0,
+        "slot": "2",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 8911,
+        "contract": "contracts/mocks/ChainlinkAggregatorV3Mock.sol:ChainlinkAggregatorV3Mock",
+        "label": "updatedAtMocked",
+        "offset": 0,
+        "slot": "3",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 8914,
+        "contract": "contracts/mocks/ChainlinkAggregatorV3Mock.sol:ChainlinkAggregatorV3Mock",
+        "label": "answeredInRoundMocked",
+        "offset": 0,
+        "slot": "4",
+        "type": "t_uint80"
+      },
+      {
+        "astId": 8917,
+        "contract": "contracts/mocks/ChainlinkAggregatorV3Mock.sol:ChainlinkAggregatorV3Mock",
+        "label": "ethOut",
+        "offset": 0,
+        "slot": "5",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 8920,
+        "contract": "contracts/mocks/ChainlinkAggregatorV3Mock.sol:ChainlinkAggregatorV3Mock",
+        "label": "ilvIn",
+        "offset": 0,
+        "slot": "6",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 8923,
+        "contract": "contracts/mocks/ChainlinkAggregatorV3Mock.sol:ChainlinkAggregatorV3Mock",
+        "label": "_now256",
+        "offset": 0,
+        "slot": "7",
+        "type": "t_uint256"
+      }
+    ],
+    "types": {
+      "t_int256": {
+        "encoding": "inplace",
+        "label": "int256",
+        "numberOfBytes": "32"
+      },
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      },
+      "t_uint80": {
+        "encoding": "inplace",
+        "label": "uint80",
+        "numberOfBytes": "10"
+      }
+    }
+  }
+}
